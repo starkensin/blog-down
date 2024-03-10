@@ -3,11 +3,11 @@ package com.example.server.post.dao;
 import com.example.server.post.Post;
 import com.example.server.post.exception.PostNotFoundException;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
-@Service
+@Repository
 @RequiredArgsConstructor
 public class PostDao {
 
